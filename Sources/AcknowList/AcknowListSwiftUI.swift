@@ -96,7 +96,6 @@ public struct AcknowListSwiftUIView: View {
                 }
             }
         }
-        .listStyle(GroupedListStyle())
         .navigationBarTitle(Text(AcknowLocalization.localizedTitle()))
         #else
         List {
